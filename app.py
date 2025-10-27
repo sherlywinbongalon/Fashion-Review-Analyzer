@@ -6,6 +6,11 @@ import pandas as pd
 import numpy as np
 import nltk
 
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
+
 # Import custom modules
 from src.data_loader import DataLoader
 from src.preprocessing import TextPreprocessor
