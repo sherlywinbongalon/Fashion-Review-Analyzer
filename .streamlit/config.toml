@@ -1,0 +1,6 @@
+[theme]
+base = "light"
+primaryColor = "#ff7eb3"
+backgroundColor = "#fef5f8"
+secondaryBackgroundColor = "#fff8fa"
+font = "Poppins"
